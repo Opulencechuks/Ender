@@ -89,7 +89,7 @@ Follow these steps to set up Ender locally.
 
 1. **Clone & Install**
    ```bash
-   git clone https://github.com/OkeyAmy/Ender.git
+   git clone https://github.com/Ender/Ender.git
    cd ender
    pnpm install  # or npm install / yarn install
    ```
