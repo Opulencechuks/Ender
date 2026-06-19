@@ -406,7 +406,9 @@ A: Absolutely! Chat with the AI to iterate on design, colors, layouts, and funct
 A: Vercel offers 15-minute timeout with better integration. E2B provides 30-minute timeout with more control. Choose based on your build complexity.
 
 ## 🤝 Contributing
-We welcome contributions to Ender! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and suggest improvements.
+We welcome contributions to Ender! Whether you are fixing bugs, proposing new features, or enhancing documentation, your help is appreciated. 
+
+Please see our [Contributing Guide (contribute.md)](contribute.md) for step-by-step instructions on setting up your local environment and making your first contribution.
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
