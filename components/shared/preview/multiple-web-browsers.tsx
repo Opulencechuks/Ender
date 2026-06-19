@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { motion } from "framer-motion";
 import WebBrowser from "./web-browser";
 
@@ -34,9 +34,9 @@ export default function MultipleWebBrowsers({
       startRotation();
     }
     return () => clearInterval(interval);
-  }, [autoRotate, rotationInterval, startRotation]);
+  }, [autoRotate, startRotation]);
 
-  const startRotation = () => {
+  const startRotation = useCallback(() => {
     interval = setInterval(() => {
       setActiveBrowsers((prevBrowsers: BrowserData[]) => {
         const newArray = [...prevBrowsers];
